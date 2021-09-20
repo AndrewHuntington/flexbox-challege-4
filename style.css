@@ -7,17 +7,20 @@
 }
 
 :root {
+  /* fonts */
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Playfair Display", serif;
 
-  --beige: #f3eed9;
-  --dark-brown: #824936;
-  --black: #222c2a;
-
+  /* font sizes */
   --superscript: 1.125rem;
   --title: 3.75rem;
   --headline: 2.25rem;
   --body-text: 1.3125rem;
+
+  /* colors */
+  --beige: #f3eed9;
+  --dark-brown: #824936;
+  --black: #222c2a;
 }
 
 html {
@@ -58,4 +61,8 @@ html {
   font-family: var(--secondary-font);
   font-size: var(--title);
   line-height: 1em;
+}
+
+.row {
+  display: flex;
 }
