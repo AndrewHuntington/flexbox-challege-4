@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Playfair Display", serif;
+
+  --beige: #f3eed9;
+  --dark-brown: #824936;
+  --black: #222c2a;
+
+  --superscript: 1.125rem;
+  --title: 3.75rem;
+  --headline: 2.25rem;
+  --body-text: 1.3125rem;
+}
+
+html {
+  font-family: var(--primary-font);
+  font-size: 16px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--beige);
+
+  min-height: 660px;
+}
+
+.container {
+  width: 80%;
+  max-width: 1128px;
+}
+
+.hero__text-area {
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.hero__superscript {
+  font-size: var(--superscript);
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  margin-bottom: 1em;
+}
+
+.hero__title {
+  color: var(--dark-brown);
+  font-family: var(--secondary-font);
+  font-size: var(--title);
+  line-height: 1em;
+}
