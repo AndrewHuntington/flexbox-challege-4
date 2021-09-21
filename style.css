@@ -28,6 +28,14 @@ html {
   font-size: 16px;
 }
 
+img {
+  width: 100%;
+}
+
+p {
+  line-height: 1.5em;
+}
+
 .hero {
   display: flex;
   align-items: center;
@@ -83,9 +91,22 @@ html {
   text-align: center;
 }
 
+.main-content__mid .main-content__headline,
+.main-content__bottom .main-content__headline {
+  margin-bottom: 1em;
+}
+
 .row {
   display: flex;
-  gap: 5em;
+  justify-content: space-between;
+}
+
+.col--left {
+  width: 45%;
+}
+
+.col--right {
+  width: 45%;
 }
 
 .main-content__mid {
